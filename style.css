@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+    font-family: "Balsamiq Sans", cursive;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+.flex {
+    display: inline-block;
+    flex-direction: row;
+}
+header {
+    background-color: black;
+    min-height: 50px;
+    width: 750px;
+}
+h1 {
+    color: white;
+}
+
+#container {
+    min-height: 50px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#yourFeed {
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+.feed {
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+ul {
+    display: flex;
+    padding: 10px;
+    flex: 1;
+}
+
+p {
+    margin: 10px;
+}
+
+button {
+    background-color: #ffd966;
+    padding: 5px;
+    width: 60px;
+    box-shadow: 3px 4px black;
+    margin: 10px;
+}
+
+.container {
+    border: 3px solid black;
+    width: 325px;
+    min-height: 75px;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+/*  */
+.top {
+    display: flex;
+    margin: 10px;
+}
+
+.mainPage {
+    width: 800px;
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 250px;
+    border: 3px solid black;
+    flex-direction: 1;
+}
+
+.left img {
+    height: 50px;
+}
+
+h2 {
+    padding: 10px;
+}
