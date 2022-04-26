@@ -91,3 +91,7 @@ button {
 h2 {
     padding: 10px;
 }
+
+.card{
+    display: flex;
+}
